@@ -34,7 +34,7 @@ into a nameserver residing on host "bastion"
 
     - name: include nsupdate
       ansible.builtin.include_role: 
-        name: mschreie.nsupdate.nsupdate
+        name: portfoliossa.nsupdate.nsupdate
       vars:
         record: aap-controller.bcl.redhat.hpecic.com.  # fully correct key (most likely with . at the end)
         value: "10.6.55.2"
